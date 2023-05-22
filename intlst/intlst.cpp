@@ -9,7 +9,7 @@ private:
 	float nilai;
 
 public:
-	mahasiswa(int pId, string pNama, float pNilai) :id(pId), nama(pNama), nilai(pNilai) { //Member ini
+	mahasiswa(int pId, string pNama, float pNilai) :id(pId), nama(pNama), nilai(pNilai) { //Memberi initialization list
 		//Definisi
 	}
 
@@ -17,11 +17,11 @@ public:
 		cout << "Id	= " << id << endl;
 		cout << "Nama	= " << nama << endl;
 		cout << "Nilai	= " << nilai << endl;
-	}
+		}
 };
 
 int main() {
-	mahasiswa mhs(12, "Lia", 90.5);
+	mahasiswa mhs(12, "Asroni", 90.5);
 
 	return 0;
 }
